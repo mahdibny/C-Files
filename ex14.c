@@ -1,3 +1,7 @@
+// This program explains how to create functions in C
+// The two functions are print_letter and can_print_it
+
+// Here is the forward declaration
 #include<stdio.h>
 #include<ctype.h>
 
@@ -25,4 +29,9 @@ void print_letters(char arg[]){
 
 int can_print_it(char ch){
 	return isalpha(ch) || isblank(ch);
+}
+
+int main (int argc, char *argv[]){
+	print_arguments(argc,argv);
+	return 0;
 }

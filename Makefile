@@ -1,5 +1,5 @@
 CFLAGS=-Wall -g
-all:hello ex3 ex6 ex7 ex8 ex9 ex10 input countC ex12
+all:hello ex3 ex6 ex7 ex8 ex9 ex10 input countC ex12 ex14
 
 clean:
 	rm -f hello
@@ -12,4 +12,5 @@ clean:
 	rm -f input
 	rm -f countC 
 	rm -f ex12
+	rm -f ex14
 		
